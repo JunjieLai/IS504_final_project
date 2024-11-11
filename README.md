@@ -65,10 +65,10 @@ Simulates an SIR model on the network graph to examine the spread of opinions or
 - **initial_infected_ratio**: Specifies the proportion of initial infected (influenced) nodes.
 
 ## Next steps
-- [ ] Expanded timeframe: June 27, 2024 (Trump Biden televised debate) to November 13, 2024 (one week after the election), 300-500 top posts per subreddit (depending on API policy limits)
-- [ ] Enhance data balance across subreddit and time interval (weekly) : Try using more advanced Pushshift API
-- [ ] Model selection: Find better models for text analytics for political aspects to be able to better understand political metaphors in posts or comments. Try to find aspect-level sentiment analysis models if you can
-- [ ] Keywords Selection: For the sentiment analysis part of candidates and themes, try to find more useful keywords (metaphors, nicknames, jargon, meme) to get more usable text data
+- [ ] **Expanded timeframe:** June 27, 2024 (Trump Biden televised debate) to November 13, 2024 (one week after the election), 300-500 top posts per subreddit (depending on API policy limits)
+- [ ] **Enhance data balance across subreddit and time interval (weekly):** Try using more advanced Pushshift API
+- [ ] **Model selection:** Find better models for text analytics for political aspects to be able to better understand political metaphors in posts or comments. Try to find aspect-level sentiment analysis models if you can
+- [ ] **Keywords Selection:** For the sentiment analysis part of candidates and themes, try to find more useful keywords (metaphors, nicknames, jargon, meme) to get more usable text data
 
 
 
