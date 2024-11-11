@@ -11,7 +11,7 @@ This notebook analyzes political echo chambers on Reddit, focusing on data colle
 - Python Libraries: praw, pandas, numpy, torch, transformers, networkx, matplotlib, seaborn, nltk, tqdm, vaderSentiment, community
 - API Access: Reddit API credentials to use PRAW for data collection. [Please register an API on your own to avoid triggering traffic limitations due to public api.](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html)
 
-## Notebook Overview
+## *echo_chamber_analysis* Notebook Overview
 
 ### 1. Import Necessary Libraries
 
