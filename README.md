@@ -19,7 +19,7 @@ This block loads libraries for data manipulation, sentiment analysis, network an
 
 ### 2. Data Collection
 
-Collects posts and comments from specified political subreddits using Reddit’s API (PRAW).
+Collects posts and comments from specified political subreddits using Reddit’s API (PRAW). **<mark>Please skip this step if you have already collected the data.</mark>**
 
 #### Configurable Parameters:
 - **democrat_subreddits** and **republican_subreddits**: Specify lists of subreddit names to collect data from each political group.
