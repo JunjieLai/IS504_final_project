@@ -4,6 +4,9 @@
 
 This notebook analyzes political echo chambers on Reddit, focusing on data collection, text preprocessing, sentiment analysis, topic modeling, network analysis, and SIR modeling. The analysis examines communities in Democratic and Republican subreddits during the 2024 U.S. presidential election.
 
+## Dataset Introduction
+**Current data** :200 top posts per subreddit(In reality it's not balanced across subreddits because of api traffic limitations & network issues), 20w+ comments from July 23, 2024 (when President Biden announced he was dropping out) to November 7, 2024 (one day after the election)
+
 ## Prerequisites
 - Python Libraries: praw, pandas, numpy, torch, transformers, networkx, matplotlib, seaborn, nltk, tqdm, vaderSentiment, community
 - API Access: Reddit API credentials to use PRAW for data collection. [Please register an API on your own to avoid triggering traffic limitations due to public api.](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html)
@@ -60,3 +63,13 @@ Simulates an SIR model on the network graph to examine the spread of opinions or
 #### Configurable Parameters:
 - **infection_rate**, **recovery_rate**: Parameters for SIR modeling. Adjust these to simulate different spread dynamics.
 - **initial_infected_ratio**: Specifies the proportion of initial infected (influenced) nodes.
+
+## Next steps
+- [ ] Expanded timeframe: June 27, 2024 (Trump Biden televised debate) to November 13, 2024 (one week after the election), 300-500 top posts per subreddit (depending on API policy limits)
+- [ ] Enhance data balance across subreddit and time interval (weekly) : Try using more advanced Pushshift API
+- [ ] Model selection: Find better models for text analytics for political aspects to be able to better understand political metaphors in posts or comments. Try to find aspect-level sentiment analysis models if you can
+- [ ] Keywords Selection: For the sentiment analysis part of candidates and themes, try to find more useful keywords (metaphors, nicknames, jargon, meme) to get more usable text data
+
+
+
+
