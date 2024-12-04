@@ -5,7 +5,7 @@
 This notebook analyzes political echo chambers on Reddit, focusing on data collection, text preprocessing, sentiment analysis, topic modeling, network analysis, and SIR modeling. The analysis examines communities in Democratic and Republican subreddits during the 2024 U.S. presidential election.
 
 ## Dataset Introduction
-**Current data** :200 top posts per subreddit(In reality it's not balanced across subreddits because of api traffic limitations & network issues), 20w+ comments from July 23, 2024 (when President Biden announced he was dropping out) to November 7, 2024 (one day after the election)
+**Current data** :200 top posts per subreddit(In reality it's not balanced across subreddits because of api traffic limitations & network issues), 20w+ comments from July 23, 2024 (when President Biden announced he was dropping out) to November 13, 2024 (one week after the election)
 
 ## Prerequisites
 - Python Libraries: praw, pandas, numpy, torch, transformers, networkx, matplotlib, seaborn, nltk, tqdm, vaderSentiment, community
